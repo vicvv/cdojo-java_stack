@@ -1,0 +1,24 @@
+@charset "UTF-8";
+* {
+	font: 100 12pt "Helvetica Neue", sans-serif;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+h1 {
+	font-size: 40pt;
+}
+legend {
+	font-size: 20pt;
+	text-align: left;
+}
+fieldset {
+	padding: 10px;
+}
+a {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	color: gray;
+}

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+label {
+  display: inline-block;
+  width: 250px;
+  text-align: right;
+}​
+
+.dropdown-menu {
+    width: 300px !important;
+    height: 400px !important;
+}

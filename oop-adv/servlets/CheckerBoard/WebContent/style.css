@@ -1,0 +1,34 @@
+.container {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.roweven, .rowodd {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: center;
+}
+.roweven .one {
+	background-color: blue;
+	width: 50px;
+	height: 50px;
+/* 	display: inline-block; */
+}
+.roweven .two {
+	background-color: yellow;
+	width: 50px;
+	height: 50px;
+	/* display: inline-block; */
+}
+.rowodd .one {
+	background-color: yellow;
+	width: 50px;
+	height: 50px;
+	/* display: inline-block; */
+}
+.rowodd .two {
+	background-color: blue;
+	width: 50px;
+	height: 50px;
+	/* display: inline-block; */
+}
